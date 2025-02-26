@@ -1,12 +1,12 @@
 public class Carro {
 private  String marca, modelo, anoFabricacao;
-
+// inciando construtor 
 public Carro(String marca, String modelo, String anoFabricacao) {
     this.marca = marca;
     this.modelo = modelo;
     this.anoFabricacao = anoFabricacao;
 }
-
+// gerando get and set
 public String getMarca() {
     return marca;
 }

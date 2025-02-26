@@ -50,7 +50,7 @@ public class App {
             int indice = sc.nextInt();
             if (indice >= 0 && indice < list.size()) {
               list.remove(indice);
-              System.out.println("camisa removida removido com sucesso");
+              System.out.println("camisa removida com sucesso");
             }
           }
           break;
